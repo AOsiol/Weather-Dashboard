@@ -1,0 +1,1 @@
+var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=richmond,virginia&appid=75c9c3885f537245e3ffc95d9728c4b1";
