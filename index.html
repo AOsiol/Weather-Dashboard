@@ -21,42 +21,42 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="row justify-content-center">
+    
+     <div class="row justify-content-center">
         <h1 id="header" class="col-md-12">Weather Dashboard</h1>
     </div>
 
 
 
     <div class="row">
-        <div class="col-sm-3" style="margin-left: 20px;">
+        <div class="col-sm-3" style="margin-left: 20px;"> 
             <!-- Search text box -->
-            <p>Search for a City:</p>
+             <p>Search for a City:</p>
             <form id="city-search">
-                <input type="text" placeholder="Search.." name="search">
+                <input id="search-input" type="text" placeholder="Search.." name="search">
                 <button id="search-btn" type="submit"><i class="fa fa-search"></i></button>
-            </form>
+            </form> 
 
 
             <!-- card for search box and history of searches -->
-            <div class="card" style="width: 225px;">
+             <div class="card" style="width: 225px;">
                 <div class="card-body">
-                    <h5 class="card-title">Past Searches</h5>
+                    <h5 class="card-title">Past Searches</h5> 
 
                     <!-- unordered list for the search history -->
-                    <ul>Richmond</ul>
+                     <ul>Richmond</ul>
                 </div>
             </div>
-        </div>
+        </div> 
 
 
 
 
-        <!-- <div class="row"> -->
-        <div class="col-sm-8">
+         <div class="row"> 
+         <div class="col-sm-8"> 
 
             <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
-            <div class="card" id="today-display">
+             <div class="card" id="today-display">
                 <div class="card-header">
                     <h2 id="location"></h2>
                     <p id="temp"></p>
@@ -64,28 +64,28 @@
                     <p id="windspeed"></p>
                     <p id="uv-index"></p>
                 </div>
-            </div>
+            </div> 
 
-            <!-- This main card will hold each of the resulting returns -->
-            <div class="card-body" id="forcast-section">
-            </div>
+             <!-- This main card will hold each of the resulting returns -->
+             <div class="card-body" id="forcast-section">
+            </div> 
 
-            <!-- </div> -->
+             </div> 
 
         </div>
-    </div>
+    </div> 
 
 
 
 
 
-    <!-- jQuesry JS -->
+    
 
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
 
-    <!-- link to JavaScript file -->
+  
     <script src="script.js"></script>
 
 
