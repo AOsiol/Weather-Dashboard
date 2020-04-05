@@ -1,17 +1,26 @@
 #header {
-    text-align: center;
-    background-color: #055005;
-    color: white;
-    padding: 10px;
+  text-align: center;
+  background-color: #055005;
+  color: white;
+  padding: 10px;
 }
 
 #search-btn {
-    padding: 5px;
-    background: #2196F3;
-    color: white;
-    border-radius: 6px;
+  padding: 5px;
+  background: #2196f3;
+  color: white;
+  border-radius: 6px;
 }
 
 #form {
-    margin-left: 20px;
+  margin-left: 20px;
+}
+
+#forecast-icon {
+  height: 60px;
+  width: 60px;
+}
+
+#forecast {
+  display: inline-block;
 }
